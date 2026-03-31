@@ -29,8 +29,8 @@ $(document).ready(function() {
     // Fade out the featured image.
     // After it fades out, change the image source.
     // Then fade the image back in.
-    $("#featured-image").fadeOut(200, function() {
-      $(this).attr("src", fullImage).fadeIn(200);
+    $("#featured-image").fadeOut(300, function() {
+      $(this).attr("src", fullImage).fadeIn(300);
     });
 
     // Update the text inside the featured project title.
